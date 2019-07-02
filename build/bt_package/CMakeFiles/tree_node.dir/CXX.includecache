@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/research/Desktop/ROS-Behavior-Tree/src/bt_package/include/node.h
+string
+-
+vector
+-
+
+/home/research/Desktop/ROS-Behavior-Tree/src/bt_package/include/pseudoDomain.h
+string
+-
+node.h
+/home/research/Desktop/ROS-Behavior-Tree/src/bt_package/include/node.h
+
+/home/research/Desktop/ROS-Behavior-Tree/src/bt_package/src/pseudoDomain.cpp
+iostream
+-
+unistd.h
+-
+map
+-
+../include/pseudoDomain.h
+/home/research/Desktop/ROS-Behavior-Tree/src/bt_package/include/pseudoDomain.h
+
