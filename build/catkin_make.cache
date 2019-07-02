@@ -1,2 +1,0 @@
-bt_package
--DCATKIN_DEVEL_PREFIX=/home/research/Desktop/ROS-Behavior-Tree/devel -DCMAKE_INSTALL_PREFIX=/home/research/Desktop/ROS-Behavior-Tree/install -G Unix Makefiles
